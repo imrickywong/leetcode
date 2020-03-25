@@ -52,7 +52,7 @@ const longestCommonPrefix = function(strs) {
 ![](../.gitbook/assets/image%20%281%29.png)
 
 ```javascript
-var longestCommonPrefix = function(strs) {
+  var longestCommonPrefix = function(strs) {
     let result = ''
     if(!strs.length) return result
     // 以第一个字符串为基准
